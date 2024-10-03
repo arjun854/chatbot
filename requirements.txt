@@ -124,3 +124,5 @@ PyYAML==6.0.1
 pyzmq==25.1.1
 qtconsole>=5.4.0
 qtpy>=2.5.1
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
