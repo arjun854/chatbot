@@ -128,7 +128,7 @@ def chatbot():
             option = st.radio("Would you like to:", 
                               ("Add a new question", 
                                "Edit the selected question", 
-                               "Delete the selected question", 
+                              # "Delete the selected question", 
                                "Continue without changes"), 
                               key="options_radio")
 
