@@ -136,8 +136,8 @@ def chatbot():
                 add_new_qa(data, category)
             elif option == "Edit the selected question":
                 edit_qa(data, category, question)
-           # elif option == "Delete the selected question":
-            #    delete_qa(data, category, question)
+            elif option == "Delete the selected question":
+              delete_qa(data, category, question)
 
     else:
         st.warning("Please type 'start' or 'exit'.")
